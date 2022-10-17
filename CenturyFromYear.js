@@ -5,4 +5,17 @@ function century(year) {
     return Math.ceil(year/100);
   }
 
+  // others way to code the answer 
+
+  function century(year){
+    let result = 0; 
+
+    for (let i = 0; i < year; i++){
+      if(i % 100 === 0){
+        result++;
+      }
+    }
+    return result
+  }
+
   
