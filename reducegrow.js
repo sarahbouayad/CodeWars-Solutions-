@@ -5,7 +5,6 @@ function grow(x){
     //   R: result of values 
     //   E: [1,2,3,4] => 1 * 2 * 3 * 4 = 24
     //   P: using the reduce method
-    
     const product = x.reduce(
     (previousValue,currentValue) => previousValue * currentValue
     );
