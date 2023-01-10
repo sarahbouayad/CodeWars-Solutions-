@@ -1,0 +1,1 @@
+const correctTail = (body, tail) => body.endsWith(tail)
