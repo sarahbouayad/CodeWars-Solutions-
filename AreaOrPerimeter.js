@@ -20,4 +20,13 @@ const areaOrPerimeter = function (l, w) {
   // Return your answer
 };
 
+
+let areaOrPerimeter = function (l, w) {
+  let area = l * w;
+  let perimeter = 2 * (l + w);
+  if (l === w) {
+    return area;
+  } else {
+    return perimeter;
+  }
 // this is a new line for pushing
